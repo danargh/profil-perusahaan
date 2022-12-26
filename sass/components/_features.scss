@@ -1,0 +1,32 @@
+.features__article {
+   max-width: 1216px;
+   margin: 0 auto 0;
+}
+.features__header {
+   margin-bottom: 64px;
+   max-width: 800px;
+   text-align: center;
+   margin: 0 auto 64px;
+   p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+   }
+}
+.features__items {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   row-gap: 64px;
+}
+.features__item {
+   text-align: center;
+   margin: 0 auto 0;
+   width: 384px;
+
+   p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+   }
+}

@@ -1,0 +1,16 @@
+.client {
+   padding: 16px 0 16px;
+}
+.client__container {
+   padding: 41px 0 41px;
+}
+.client__items {
+   margin: 0 auto 0;
+   max-width: 1216px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   img {
+      padding: 16px 16px 16px;
+   }
+}
